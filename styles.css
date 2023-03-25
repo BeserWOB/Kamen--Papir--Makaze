@@ -1,0 +1,44 @@
+h1, h2, h3 {
+  margin: 0;
+}
+
+.naslov, .rezultat, .rezultat-naslov {
+  text-align: center;
+  font-family: cursive;
+  font-size: 2rem;
+}
+
+
+.button {
+  text-align: center;
+  border-radius: 20rem;
+  margin: 3rem;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.button:hover {
+  transform: scale(1.2);
+  transition: transform 750ms ease-in-out;
+}
+
+
+
+.rezultat {
+  margin: 3rem;
+}
+
+.div-rezultat {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+
+footer {
+  text-align: center;
+  font-family: cursive;
+}
